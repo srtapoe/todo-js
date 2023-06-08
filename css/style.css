@@ -78,5 +78,33 @@ h1:hover{
     font-size: size 1.5rem;
     text-transform: capitalize;
     display: flex;
+    align-items: center;
     justify-content: space-between
+}
+
+#todo-list li:hover{
+    background-color: var(--titles);
+    opacity: 0.5;
+    border-radius: 1rem;
+    padding-left: 1rem;
+
+}
+
+#btn-done{
+    border: none;
+    background-color: var(--transitions);
+    color: var(--titles);
+    padding: .4rem .8rem;
+    border-radius: 50%;
+    width:  50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: .4s;
+}
+
+#btn-done:hover{
+    background-color: var(--background-blue);
 }
