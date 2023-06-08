@@ -1,0 +1,16 @@
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #93A9FE;
+}
+
+h1{
+    color: #FFF9EB;
+    text-align: center;
+    font-size: 60px;
+}
+
+h1:hover{
+    color:  #ebb93b;
+    opacity: 0.8;
+    transition-duration: 2s;
+}
